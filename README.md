@@ -1,5 +1,5 @@
 ## ETL-Project
-Team Members: Jenny Yang, Ishin Yavuz, Saeger Godson
+**Team Members: Jenny Yang, Ishin Yavuz, Saeger Godson**
 
 ## Objective:
 The objective is to perform the ETL(Extract-Transform-Load) process by reading, transforming and loading Netflix, IMDB, Rotten Tomatoes rating and Goodbooks datasets into a SQL database.
