@@ -19,7 +19,7 @@ The objective is to perform the ETL(Extract-Transform-Load) process by reading, 
 2. Create a new database called "Netflix_IMDB" in pgAdmin
 3. Run Schema "schemas_netflix_ratings_book" to create six tables- "netflix_movie_basic", "netflix_movie_date", "rotten_tomatoes_movies_rating", "books", "imdb_movies", "imdb_ratings" in Netflix_IMDB
 4. Launch Jupyter notebook "Netflix Movies w Voting and Books" within your local repo and run through the codes
-9. in PgAdmin run sql code "queries" to see the analysis examples and test data& connections among the tables.
+9. In PgAdmin run sql code "queries" to see the analysis examples which tests data connections among the tables.
 
 
 
