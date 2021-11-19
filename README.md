@@ -1,4 +1,4 @@
-## ETL-Project
+## ETL-Project Group 6
 Team Members: Jenny Yang, Ishin Yavuz, Saeger Godson
 
 ## Objective:
