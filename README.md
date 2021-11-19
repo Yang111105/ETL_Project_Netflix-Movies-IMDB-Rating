@@ -14,7 +14,7 @@ The objective is to perform the ETL(Extract-Transform-Load) process by reading, 
 
 . https://www.kaggle.com/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset?select=rotten_tomatoes_movies.csv
 
-### Instructions:
+## Instructions:
 1. Clone "ETL_Project_Netflix-Movies-IMDB-Rating" repository from github
 2. Launch a Jupyter notebook within your local repo and open a new python 3 notebook
 3. Import dependencies and setup into your jupyter notebook 
