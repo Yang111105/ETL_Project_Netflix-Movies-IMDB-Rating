@@ -6,13 +6,13 @@ The objective is to perform the ETL(Extract-Transform-Load) process by reading, 
 
 
 ## Resources:
-. https://www.kaggle.com/niharika41298/netflix-visualizations-recommendation-eda/notebook
-
-. https://www.kaggle.com/codeblogger/2021-netflix-visualizations-eda/notebook
+. https://www.kaggle.com/shivamb/netflix-shows?select=netflix_titles.csv
 
 . https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset
 
 . https://www.kaggle.com/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset?select=rotten_tomatoes_movies.csv
+
+. https://www.kaggle.com/zygmunt/goodbooks-10k?select=books.csv
 
 ## Instructions:
 1. Clone `"ETL_Project_Netflix-Movies-IMDB-Rating"` repository from github to local folder
