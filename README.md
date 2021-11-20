@@ -21,11 +21,14 @@ This project collected above information, performed ETL(Extract-Transform-Load) 
 
 2. Create a new database called `"Netflix_IMDB"` in pgAdmin
 
-3. Run Schema `"schemas_netflix_ratings_book"` to create six tables- "netflix_movie_basic", "netflix_movie_date", "rotten_tomatoes_movies_rating", "books", "imdb_movies", "imdb_ratings" in Netflix_IMDB
+3. Run Schema `"schemas_netflix_ratings_book"` to create six tables in Netflix_IMDB as below:
+    - "netflix_movie_basic", "netflix_movie_date", "rotten_tomatoes_movies_rating", "books", "imdb_movies", "imdb_ratings" 
 
 4. Launch Jupyter notebook `"Netflix Movies w Voting and Books"` within your local repo and run through the codes
+    - **Important Note**: before running the notebook, change postgres ID, Passcode and Port# to your own in this code: `connection_string = "postgres:bootcamp@localhost:5432/Netflix_IMDB"` 
 
 5. In PgAdmin run sql code `"queries"` to see the analysis examples which tests data connections among the tables
+    - The queries include: Top 10 Netflix movies rated by IMDB and Rotten Tomatoes; Top 10 movies rated by Male/Female; Movies produced from books  
 
 
 
