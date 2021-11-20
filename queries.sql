@@ -1,10 +1,3 @@
-SELECT * FROM netflix_movie_basic;
-SELECT * FROM netflix_movie_date;
-SELECT * FROM rotten_tomatoes_movies_rating;
-SELECT * FROM books;
-SELECT * FROM imdb_ratings;
-SELECT * FROM imdb_movies;
-
 -- Best Movies Based on IMDB Ratins
 SELECT im.movie_title,ir.weighted_average_vote,ir.total_votes
 FROM imdb_ratings AS ir
@@ -25,6 +18,26 @@ LOWER(nb.title)=LOWER(im.movie_title)
 JOIN rotten_tomatoes_movies_rating AS rr ON
 LOWER(rr.title)=LOWER(nb.title)
 ORDER BY ir.weighted_average_vote DESC
+LIMIT 10;
+
+--Top Ten Movies According to Males Voters 
+SELECT im.movie_title,ir.males_allages_avg_vote
+FROM imdb_ratings AS ir
+JOIN imdb_movies AS im ON
+ir.imdb_title_id=im.id
+JOIN netflix_movie_basic AS nb ON
+nb.title=im.movie_title
+ORDER BY ir.males_allages_avg_vote DESC
+LIMIT 10;
+
+--Top Ten Movies According to Females Voters 
+SELECT im.movie_title,ir.females_allages_avg_vote
+FROM imdb_ratings AS ir
+JOIN imdb_movies AS im ON
+ir.imdb_title_id=im.id
+JOIN netflix_movie_basic AS nb ON
+nb.title=im.movie_title
+ORDER BY ir.females_allages_avg_vote DESC
 LIMIT 10;
 
 -- Movies Related to Books
