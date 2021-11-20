@@ -2,9 +2,9 @@
 Team Members: Jenny Yang, Ishin Yavuz, Saeger Godson
 
 ## Objective:
-A lot of people check IMDB or Rotten Tomatoes score for a movie before watching it on Netflix. Some may even wonder if the movie was based on a book as its storyline.
+A lot of people check IMDB or Rotten Tomatoes scores for movies before watching them on Netflix. Some even wonder if the movie was based on a popular book or storyline.
 
-This project collected above information, performed ETL(Extract-Transform-Load) process by reading, transforming and loading Netflix, IMDB/ Rotten Tomatoes Rating and Goodbooks datasets into a SQL database, so further analysis or search can be done based on this consolidated database. 
+This project collected above the information, performed ETL(Extract-Transform-Load) process by reading, transforming and loading Netflix, IMDB/ Rotten Tomatoes Rating and Goodbooks datasets into a SQL database. Further analysis or search can be done based on this consolidated database. 
 
 
 ## Resources:
